@@ -4,6 +4,8 @@ services:
   docker-nodejs-helloworld:
     image: vinaymavi/nodejs-helloworld-alpine
     build: .
+    volumes: 
+      - .:/usr/src/app
     environment:
       NODE_ENV: production
     ports:
