@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   docker-nodejs-helloworld:
-    image: docker-nodejs-helloworld
+    image: vinaymavi/nodejs-helloworld-alpine
     build: .
     environment:
       NODE_ENV: production
